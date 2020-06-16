@@ -1,0 +1,147 @@
+/* navbar */
+
+.brand-features{
+    font-family: 'Adamina', serif;
+    margin-bottom: 0.2rem;
+}
+.subtitle-features{
+    font-weight: lighter;
+    font-size: 0.7rem;
+    font-family: 'Adamina', serif;
+    margin-left: 3.2rem;
+    
+}
+#navigation{
+    background-color: #f54291;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #212529;
+}
+.call-button{
+    margin: 0.3rem 0 0 0.5rem;
+}
+
+/* title */
+#title-background{
+    margin:0;
+    padding:0;
+}
+#title{
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background: url(images/doctorimg.jpg) no-repeat;
+    flex-direction: row-reverse;
+}
+.box{
+    position: relative;
+    max-width: 600px;
+    height:min-content;
+    padding: 50px;
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+.box h1{
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 48px;
+    font-family: 'Dancing Script', cursive;
+}
+.box h4{
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 33px;
+}
+.box p{
+    margin: 0 ;
+    padding: 0;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;   
+}
+.main-button{
+    margin: 5% 3px 2% 0;
+}
+.main-button:hover{
+    color: #f54291;
+}
+@media(max-width: 767px){
+
+    .box h1{
+        font-weight: bolder;
+    }
+    .box h4{
+        font-weight: bolder;
+    }
+    .box p{
+        font-weight: bolder;
+    }
+    /* .main-button{
+        height: 40px;
+        width: 
+    }  */
+    .box{
+        background-color: rgba(255, 255, 255, 0.5);
+        /* box-shadow: none; */
+        padding: 2px;
+    }
+} 
+
+
+/* #title{
+    background: url(images/docs.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100px;
+    position: relative;
+    width:100%;
+    background-size: cover;
+    opacity: 0.5;
+}
+.title-text{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 200px;
+}
+
+.title-text h1{
+    font-size:500%;
+    font-weight: 700;
+    
+}
+@media(max-width: 767px){
+    .title-text h1{
+        font-size:250%;
+    }
+} */
+
+
+
+
+/* footer */
+.bg-color{
+    background-color: #ee91bc;
+    color: #fff;
+}
+.footer-link{
+    color:#fff;
+}
+.footer-link:hover{
+    color: #000;
+    text-decoration: none;
+    
+}
+.btn-fb{
+    color: #fff;
+}
+.btn-fb:hover{
+    color:#000;
+}
+.btn-instagram{
+    color: #fff;
+}
+.btn-instagram:hover{
+    color:#000;
+}
